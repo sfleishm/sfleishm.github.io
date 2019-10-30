@@ -9,9 +9,12 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/cc83497d11.js" crossorigin="anonymous"></script>
+ 
 </head>
 
-<nav class="navbar navbar-expand-lg" style="background-color: #24e3a7;">
+<!-- Top Nav Bar -->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #F8F8F8;">
   <a class="navbar-brand" href="https://github.com/sfleishm">My Github</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,13 +24,16 @@
       <li class="nav-item active">
         <a class="nav-link" href="https://sfleishm.github.io/">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="fleishman_resume.pdf">Résumé <span class="sr-only">(current)</span></a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Link to Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Reddit</a>
-          <a class="dropdown-item" href="#">ETL</a>
+          <a class="dropdown-item" href="https://github.com/jessicaklai/Project-1_Political-Landscape-of-Reddit">Reddit</a>
+          <a class="dropdown-item" href="https://github.com/sfleishm/ETL-Project">ETL</a>
           <a class="dropdown-item" href="https://github.com/jschwan1282/Project-3">Malaria in the World</a>
         </div>
       </li>
@@ -35,21 +41,135 @@
   </div>
 </nav>
 
+<!-- Bottom Navbar -->
+<nav class="navbar navbar-expand-lg fixed-bottom" id="bottomNav" style="background-color: #F8F8F8;">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <!-- This mx-auto is how to center all of this -->
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a href = "https://www.linkedin.com/in/scott-fleishman-a71ba8178/">
+          <i class="fab fa-linkedin-in fa-3x" title="LinkedIn"></i>
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a href = "fleishman_resume.pdf">
+          <i class="fas fa-file fa-3x" title="Resume"></i>
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a href = "https://github.com/sfleishm">
+          <i class="fab fa-github fa-3x" title="GitHub"></i> 
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="container-fluid">
-  <body>
     <div class="header">
-    <img class ="rounded-circle" src="scott.jpeg" height="500" title="White flower" alt="Flower"> 
+    <img class ="rounded-circle" src="scott.jpeg" height="500" title="That's Me!" alt="That's Me"> 
     <h1 >
       Scott Fleishman
     </h1>
     <h3 >
       Data Scientist with a passion for problem solving.
     </h3>
+    <p>
+    <h1> Under Construction</h1>
+    </p>
     </div>
 
-
-
-  </body>
+    <!-- Add jcode for projects -->
+    <!-- <div class="row">
+				<div class="col-md-4">
+						<a href="main.html"><img
+							src="https://raw.githubusercontent.com/jschwan1282/Project-3/master/images/rsz_leafletmap.jpg" width="400" height="auto"
+							alt="leaflet map" class="frontpagepics"></a>
+					<h3>
+						GDP and Malaria Deaths
+					</h3>
+					<p>
+						This interactive Leaflet map illustrates each country's GDP per capita and provides Malaria mortality statistics, including by age group.
+					</p>
+					<p>
+						<a class="btn" href="main.html">View map »</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+						<a href="main2.html"><img
+							src="https://raw.githubusercontent.com/jschwan1282/Project-3/master/images/rsz_bargraph.jpg" width="400" height="auto"
+							alt="am charts map" class="frontpagepics"></a>
+					<h3>
+						Malaria Death Trends
+					</h3>
+					<p>
+						This bar graph was created using the Charts.js library and displays worldwide a quick view of the decline in Malaria deaths in the 2000s.
+					</p>
+					<p>
+						<a class="btn" href="main2.html">View graph »</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+						<a href="plots.html"><img
+							src="https://raw.githubusercontent.com/jschwan1282/Project-3/master/images/rsz_plotlychart.jpg" width="400" height="auto"
+							alt="plotly chart" class="frontpagepics"></a>
+					<h3>
+						Comparing GDP & Deaths
+					</h3>
+					<p>
+						This Plotly chart provides a visualization to display the relationship between GDP per capita and Malaria mortality.
+					</p>
+					<p>
+						<a class="btn" href="plots.html">View chart »</a>
+					</p>
+				</div>
+      </div> -->
+      <!-- Add another row for more projects -->
+      <!-- <div class="row">
+          <div class="col-md-4">
+              <a href="main.html"><img
+                src="https://raw.githubusercontent.com/jschwan1282/Project-3/master/images/rsz_leafletmap.jpg" width="400" height="auto"
+                alt="leaflet map" class="frontpagepics"></a>
+            <h3>
+              GDP and Malaria Deaths
+            </h3>
+            <p>
+              This interactive Leaflet map illustrates each country's GDP per capita and provides Malaria mortality statistics, including by age group.
+            </p>
+            <p>
+              <a class="btn" href="main.html">View map »</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+              <a href="main2.html"><img
+                src="https://raw.githubusercontent.com/jschwan1282/Project-3/master/images/rsz_bargraph.jpg" width="400" height="auto"
+                alt="am charts map" class="frontpagepics"></a>
+            <h3>
+              Malaria Death Trends
+            </h3>
+            <p>
+              This bar graph was created using the Charts.js library and displays worldwide a quick view of the decline in Malaria deaths in the 2000s.
+            </p>
+            <p>
+              <a class="btn" href="main2.html">View graph »</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+              <a href="plots.html"><img
+                src="https://raw.githubusercontent.com/jschwan1282/Project-3/master/images/rsz_plotlychart.jpg" width="400" height="auto"
+                alt="plotly chart" class="frontpagepics"></a>
+            <h3>
+              Comparing GDP & Deaths
+            </h3>
+            <p>
+              This Plotly chart provides a visualization to display the relationship between GDP per capita and Malaria mortality.
+            </p>
+            <p>
+              <a class="btn" href="plots.html">View chart »</a>
+            </p>
+          </div>
+        </div> -->
 </div>
+
 
 </html>

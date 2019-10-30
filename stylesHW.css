@@ -1,0 +1,170 @@
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+    background-color: white;
+
+
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    background-color: white;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.LeftBox{
+    /* padding: 0px 20px 20px 20px; */
+    /* padding-left: 100px; */
+    color: black;
+    background-color: white;
+    /* margin:0px auto;
+    width:100%;
+    height:50px;
+    background-color:white; */
+
+}
+
+/* This was causing stupid problems */
+/* .container {
+    display: flex;
+} */
+
+.LeftBox h1{
+    color: rgb(59, 143, 192);
+    text-shadow: 1px 1px 1px black;
+
+}
+
+body{
+    /* background-color: whitesmoke; */
+    background-color: whitesmoke;
+}
+.RightBox{
+    /* padding: 0px 50px 0px 0px; */
+    background-color: white;
+    text-align: center;
+
+    /* margin: 0px; */
+}
+
+/* Comparisons Styles */
+.Box {
+    background-color: white;
+}
+.Box h3 {
+    text-align: center;
+}
+
+.jumbotron {
+    padding-left: 0rem;
+    text-align: center;
+    /* background-color: white; */
+}
+
+.container {
+    background-color: white;
+}
+
+.width80 {
+    width: 80%; 
+    height: auto;    
+  }
+
+.width90 {
+    width: 90%;
+    height: auto;
+}
+.width75 {
+    width: 75%;
+    height: auto;
+}
+
+.width50 {
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+
+    /* .navbar ul {
+      visibility: hidden;
+    } */
+
+    #nav-select {
+      visibility: visible;
+    }
+
+    .RightBox {
+        float: left;
+        /* visibility: hidden; */
+    }
+    .tableDude {
+        /* visibility: hidden; */
+        width: auto;
+    }
+  }
+
+p {
+    align-content: center;
+}
+/* Testing
+.LeftBox {
+    margin:0px auto;
+    width:100%;
+    height:50px;
+    background-color:white;
+    float:left;
+    padding:10px;
+    border:2px solid red;
+    position: relative;
+    z-index: 10;
+}
+.LeftBox:after {
+    background-color: grey;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+} */
+
+
+/* .container {
+    /* padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto; */
+
+} */
+/* .col-8 {
+    width: 500px;
+    color: aqua
+} */
+/* .nav-item {
+    font-size: 90px;
+} */
+/* .ml {
+    margin-left: ($spacer * .25) !important;
+  } */ 

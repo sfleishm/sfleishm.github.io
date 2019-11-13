@@ -13274,7 +13274,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div></section><section>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[130]:</div>
@@ -13444,7 +13444,7 @@ Testing Data Score: 0.6471897607122983
 </div>
 </div>
 
-</div></section><section>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[136]:</div>
@@ -13844,7 +13844,7 @@ Testing Data Score: 0.6471897607122983
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Confusion-Matrix-Loc-by-Caucasian---trained-and-test-on-no-race">Confusion Matrix Loc by Caucasian - trained and test on no race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Caucasian---trained-and-test-on-no-race">&#182;</a></h2>
+<h2 id="Confusion-Matrix-.loc-by-Caucasian---Trained-and-Tested-on-no-Race">Confusion Matrix .loc by Caucasian - Trained and Tested on no Race<a class="anchor-link" href="#Confusion-Matrix-.loc-by-Caucasian---Trained-and-Tested-on-no-Race">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
@@ -14015,101 +14015,10 @@ False Negative: 0.22749590834697217
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Confusion-Matrix-Loc-by-A-A---trained-and-test-on-no-race">Confusion Matrix Loc by A-A - trained and test on no race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-A-A---trained-and-test-on-no-race">&#182;</a></h2>
+<h2 id="Confusion-Matrix-Loc-by-A-A---Trained-and-Tested-on-no-Race">Confusion Matrix Loc by A-A - Trained and Tested on no Race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-A-A---Trained-and-Tested-on-no-Race">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[142]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">african_american</span> <span class="o">=</span> <span class="n">joinedDF_no_na</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">joinedDF_no_na</span><span class="p">[</span><span class="s1">&#39;race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;African-American&#39;</span><span class="p">]</span>
-<span class="c1"># caucasian.head()</span>
-<span class="n">african_american_reduced</span> <span class="o">=</span> <span class="n">african_american</span><span class="p">[[</span><span class="s1">&#39;race&#39;</span><span class="p">,</span><span class="s1">&#39;Prediction&#39;</span><span class="p">,</span><span class="s1">&#39;Actual&#39;</span><span class="p">]]</span>
-<span class="n">african_american_reduced</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[142]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>15</th>
-      <td>African-American</td>
-      <td>0.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>African-American</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>African-American</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>African-American</td>
-      <td>0.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>African-American</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[143]:</div>
@@ -14187,101 +14096,10 @@ False Negative: 0.20063694267515925
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Confusion-Matrix-Loc-by-Hispanic---trained-and-test-on-no-race">Confusion Matrix Loc by Hispanic - trained and test on no race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Hispanic---trained-and-test-on-no-race">&#182;</a></h2>
+<h2 id="Confusion-Matrix-Loc-by-Hispanic---Trained-and-Tested-on-no-Race">Confusion Matrix Loc by Hispanic - Trained and Tested on no Race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Hispanic---Trained-and-Tested-on-no-Race">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[146]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hispanic</span> <span class="o">=</span> <span class="n">joinedDF_no_na</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">joinedDF_no_na</span><span class="p">[</span><span class="s1">&#39;race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Hispanic&#39;</span><span class="p">]</span>
-<span class="c1"># caucasian.head()</span>
-<span class="n">hispanic_reduced</span> <span class="o">=</span> <span class="n">hispanic</span><span class="p">[[</span><span class="s1">&#39;race&#39;</span><span class="p">,</span><span class="s1">&#39;Prediction&#39;</span><span class="p">,</span><span class="s1">&#39;Actual&#39;</span><span class="p">]]</span>
-<span class="n">hispanic_reduced</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[146]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>156</th>
-      <td>Hispanic</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>168</th>
-      <td>Hispanic</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>176</th>
-      <td>Hispanic</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>177</th>
-      <td>Hispanic</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>185</th>
-      <td>Hispanic</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[147]:</div>
@@ -14359,101 +14177,10 @@ False Negative: 0.28378378378378377
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Confusion-Matrix-Loc-by-Native-American---trained-and-test-on-no-race">Confusion Matrix Loc by Native-American - trained and test on no race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Native-American---trained-and-test-on-no-race">&#182;</a></h2>
+<h2 id="Confusion-Matrix-Loc-by-Native-American---Trained-and-Tested-on-no-Race">Confusion Matrix Loc by Native-American - Trained and Tested on no Race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Native-American---Trained-and-Tested-on-no-Race">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[150]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">native_american</span> <span class="o">=</span> <span class="n">joinedDF_no_na</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">joinedDF_no_na</span><span class="p">[</span><span class="s1">&#39;race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Native American&#39;</span><span class="p">]</span>
-<span class="c1"># caucasian.head()</span>
-<span class="n">native_american_reduced</span> <span class="o">=</span> <span class="n">native_american</span><span class="p">[[</span><span class="s1">&#39;race&#39;</span><span class="p">,</span><span class="s1">&#39;Prediction&#39;</span><span class="p">,</span><span class="s1">&#39;Actual&#39;</span><span class="p">]]</span>
-<span class="n">native_american_reduced</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[150]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>457</th>
-      <td>Native American</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>1163</th>
-      <td>Native American</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>1703</th>
-      <td>Native American</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>1858</th>
-      <td>Native American</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>3639</th>
-      <td>Native American</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[151]:</div>
@@ -14531,101 +14258,10 @@ False Negative: 0.0
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Confusion-Matrix-Loc-by-Other---trained-and-test-on-no-race">Confusion Matrix Loc by Other - trained and test on no race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Other---trained-and-test-on-no-race">&#182;</a></h2>
+<h2 id="Confusion-Matrix-Loc-by-Other---Trained-and-Tested-on-no-Race">Confusion Matrix Loc by Other - Trained and Tested on no Race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Other---Trained-and-Tested-on-no-Race">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[154]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">other</span> <span class="o">=</span> <span class="n">joinedDF_no_na</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">joinedDF_no_na</span><span class="p">[</span><span class="s1">&#39;race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Other&#39;</span><span class="p">]</span>
-<span class="c1"># caucasian.head()</span>
-<span class="n">other_reduced</span> <span class="o">=</span> <span class="n">other</span><span class="p">[[</span><span class="s1">&#39;race&#39;</span><span class="p">,</span><span class="s1">&#39;Prediction&#39;</span><span class="p">,</span><span class="s1">&#39;Actual&#39;</span><span class="p">]]</span>
-<span class="n">other_reduced</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[154]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>26</th>
-      <td>Other</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>Other</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>91</th>
-      <td>Other</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>131</th>
-      <td>Other</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>157</th>
-      <td>Other</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[155]:</div>
@@ -14703,101 +14339,10 @@ False Negative: 0.16049382716049382
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Confusion-Matrix-Loc-by-Asian---trained-and-test-on-no-race">Confusion Matrix Loc by Asian - trained and test on no race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Asian---trained-and-test-on-no-race">&#182;</a></h2>
+<h2 id="Confusion-Matrix-Loc-by-Asian---Trained-and-Tested-on-no-Race">Confusion Matrix Loc by Asian - Trained and Tested on no Race<a class="anchor-link" href="#Confusion-Matrix-Loc-by-Asian---Trained-and-Tested-on-no-Race">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[158]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">asian</span> <span class="o">=</span> <span class="n">joinedDF_no_na</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">joinedDF_no_na</span><span class="p">[</span><span class="s1">&#39;race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Asian&#39;</span><span class="p">]</span>
-<span class="c1"># caucasian.head()</span>
-<span class="n">asian_reduced</span> <span class="o">=</span> <span class="n">asian</span><span class="p">[[</span><span class="s1">&#39;race&#39;</span><span class="p">,</span><span class="s1">&#39;Prediction&#39;</span><span class="p">,</span><span class="s1">&#39;Actual&#39;</span><span class="p">]]</span>
-<span class="n">asian_reduced</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[158]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>486</th>
-      <td>Asian</td>
-      <td>0.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>1586</th>
-      <td>Asian</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>1860</th>
-      <td>Asian</td>
-      <td>0.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>2034</th>
-      <td>Asian</td>
-      <td>0.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>3752</th>
-      <td>Asian</td>
-      <td>1.0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[159]:</div>
@@ -14875,208 +14420,10 @@ False Negative: 0.4
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="DOING-STUFF-WITH-RACE-TREAD-CAREFULLY">DOING STUFF WITH RACE TREAD CAREFULLY<a class="anchor-link" href="#DOING-STUFF-WITH-RACE-TREAD-CAREFULLY">&#182;</a></h1>
+<h1 id="Adding-Race-In">Adding Race In<a class="anchor-link" href="#Adding-Race-In">&#182;</a></h1>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[162]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reducedDF_with_race_dummies</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">reducedDF</span><span class="p">)</span>
-<span class="n">reducedDF_with_race_dummies</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[162]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>age</th>
-      <th>juve_fel_count</th>
-      <th>juv_misd_count</th>
-      <th>prios_count</th>
-      <th>violence</th>
-      <th>drugs</th>
-      <th>theft</th>
-      <th>arrest_case_no_charge</th>
-      <th>traffic</th>
-      <th>disorderly_conduct</th>
-      <th>...</th>
-      <th>sex_Male</th>
-      <th>age_cat_25 - 45</th>
-      <th>age_cat_Greater than 45</th>
-      <th>age_cat_Less than 25</th>
-      <th>race_African-American</th>
-      <th>race_Asian</th>
-      <th>race_Caucasian</th>
-      <th>race_Hispanic</th>
-      <th>race_Native American</th>
-      <th>race_Other</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>69</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>7</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>34</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>7</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>24</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4</td>
-      <td>0</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>23</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>43</td>
-      <td>0</td>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 24 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[163]:</div>
@@ -15091,13 +14438,6 @@ False Negative: 0.4
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Train-ML-on-all-data-with-race,-now-test-on-race">Train ML on all data with race, now test on race<a class="anchor-link" href="#Train-ML-on-all-data-with-race,-now-test-on-race">&#182;</a></h2>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[164]:</div>
@@ -15109,42 +14449,6 @@ False Negative: 0.4
 </pre></div>
 
     </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[165]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="k">import</span> <span class="n">RandomForestClassifier</span>
-<span class="n">rf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
-<span class="n">rf</span> <span class="o">=</span> <span class="n">rf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
-<span class="n">rf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[165]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>0.6494156928213689</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -15181,7 +14485,7 @@ Testing Data Score: 0.6494156928213689
 </div>
 </div>
 
-</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[167]:</div>
@@ -15234,63 +14538,7 @@ Testing Data Score: 0.6494156928213689
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[168]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span> <span class="o">=</span> <span class="n">rf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[169]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span><span class="p">[</span><span class="s1">&#39;Prediction&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions</span>
-<span class="n">X_test</span><span class="p">[</span><span class="s1">&#39;Actual&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">y_test</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\Users\scott\Anaconda3\envs\pythondata\lib\site-packages\ipykernel_launcher.py:1: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame.
-Try using .loc[row_indexer,col_indexer] = value instead
-
-See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-  &#34;&#34;&#34;Entry point for launching an IPython kernel.
-C:\Users\scott\Anaconda3\envs\pythondata\lib\site-packages\ipykernel_launcher.py:2: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame.
-Try using .loc[row_indexer,col_indexer] = value instead
-
-See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-  
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -15416,14 +14664,14 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Test-Confusion-Matrix-on-AA">Test Confusion Matrix on AA<a class="anchor-link" href="#Test-Confusion-Matrix-on-AA">&#182;</a></h2>
 </div>
 </div>
-</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[171]:</div>
@@ -15542,20 +14790,7 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[172]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#print(f&#39;Number of Predicted: {len(X_test_see_race_aa.loc[X_test_see_race_aa[&quot;Prediction&quot;]==True])}, Number of Actual:{len(X_test_see_race_aa.loc[X_test_see_race_aa[&quot;Actual&quot;]==True])}, {len(X_test_see_race_aa.loc[X_test_see_race_aa[&quot;Prediction&quot;]==True])/len(X_test_see_race_aa[&quot;Actual&quot;])}&#39;)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[173]:</div>
@@ -15585,56 +14820,6 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 <div class="output_text output_subarea output_execute_result">
 <pre>array([[320, 151],
        [178, 293]], dtype=int64)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[174]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ### sklearn.metrics.confusion_matrix(y_true, y_pred, labels=None, sample_weight=None)[source]¶</span>
-<span class="c1"># ## TEST</span>
-<span class="c1"># tn, fp, fn, tp = confusion_matrix([0, 1, 0, 1], [1, 1, 1, 0]).ravel()</span>
-<span class="c1"># (tn, fp, fn, tp)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[175]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-<span class="p">(</span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[175]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(320, 151, 178, 293)</pre>
 </div>
 
 </div>
@@ -15679,132 +14864,13 @@ False Negative: 0.18895966029723993
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Confusion-Matrix-White">Confusion Matrix White<a class="anchor-link" href="#Confusion-Matrix-White">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[177]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test_see_race_white</span> <span class="o">=</span> <span class="n">X_test_see_race</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test_see_race</span><span class="p">[</span><span class="s1">&#39;race_Caucasian&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">X_test_see_race_white</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[177]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race_African-American</th>
-      <th>race_Asian</th>
-      <th>race_Caucasian</th>
-      <th>race_Hispanic</th>
-      <th>race_Native American</th>
-      <th>race_Other</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>7021</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4908</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>6107</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3066</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5106</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -15835,53 +14901,6 @@ False Negative: 0.18895966029723993
 <div class="output_text output_subarea output_execute_result">
 <pre>array([[286,  80],
        [138, 107]], dtype=int64)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[179]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## proves that our machine learning isnt doing anything more ethical </span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[180]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-<span class="p">(</span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[180]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(286, 80, 138, 107)</pre>
 </div>
 
 </div>
@@ -15926,132 +14945,13 @@ False Negative: 0.22585924713584288
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Confusion-Matrix-Hispanic">Confusion Matrix Hispanic<a class="anchor-link" href="#Confusion-Matrix-Hispanic">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[182]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test_see_race_hispanic</span> <span class="o">=</span> <span class="n">X_test_see_race</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test_see_race</span><span class="p">[</span><span class="s1">&#39;race_Hispanic&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">X_test_see_race_hispanic</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[182]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race_African-American</th>
-      <th>race_Asian</th>
-      <th>race_Caucasian</th>
-      <th>race_Hispanic</th>
-      <th>race_Native American</th>
-      <th>race_Other</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>4959</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2846</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>5015</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4684</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>239</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -16082,40 +14982,6 @@ False Negative: 0.22585924713584288
 <div class="output_text output_subarea output_execute_result">
 <pre>array([[74, 15],
        [39, 20]], dtype=int64)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[184]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-<span class="p">(</span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[184]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(74, 15, 39, 20)</pre>
 </div>
 
 </div>
@@ -16160,132 +15026,13 @@ False Negative: 0.2635135135135135
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Confusion-Matrix-Native-American">Confusion Matrix Native American<a class="anchor-link" href="#Confusion-Matrix-Native-American">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[186]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test_see_race_native_american</span> <span class="o">=</span> <span class="n">X_test_see_race</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test_see_race</span><span class="p">[</span><span class="s1">&#39;race_Native American&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">X_test_see_race_native_american</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[186]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race_African-American</th>
-      <th>race_Asian</th>
-      <th>race_Caucasian</th>
-      <th>race_Hispanic</th>
-      <th>race_Native American</th>
-      <th>race_Other</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>457</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1163</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1858</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1703</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3639</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -16316,40 +15063,6 @@ False Negative: 0.2635135135135135
 <div class="output_text output_subarea output_execute_result">
 <pre>array([[2, 1],
        [0, 2]], dtype=int64)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[188]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-<span class="p">(</span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[188]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(2, 1, 0, 2)</pre>
 </div>
 
 </div>
@@ -16394,132 +15107,13 @@ False Negative: 0.0
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Confusion-Matrix-Other">Confusion Matrix Other<a class="anchor-link" href="#Confusion-Matrix-Other">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[190]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test_see_race_other</span> <span class="o">=</span> <span class="n">X_test_see_race</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test_see_race</span><span class="p">[</span><span class="s1">&#39;race_Other&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">X_test_see_race_other</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[190]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race_African-American</th>
-      <th>race_Asian</th>
-      <th>race_Caucasian</th>
-      <th>race_Hispanic</th>
-      <th>race_Native American</th>
-      <th>race_Other</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>6937</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5849</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>6782</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4647</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2392</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -16550,40 +15144,6 @@ False Negative: 0.0
 <div class="output_text output_subarea output_execute_result">
 <pre>array([[44, 10],
        [13, 14]], dtype=int64)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[192]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-<span class="p">(</span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[192]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(44, 10, 13, 14)</pre>
 </div>
 
 </div>
@@ -16628,132 +15188,13 @@ False Negative: 0.16049382716049382
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Confusion-Matrix-Asian">Confusion Matrix Asian<a class="anchor-link" href="#Confusion-Matrix-Asian">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[194]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test_see_race_other</span> <span class="o">=</span> <span class="n">X_test_see_race</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test_see_race</span><span class="p">[</span><span class="s1">&#39;race_Asian&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">X_test_see_race_other</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[194]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>race_African-American</th>
-      <th>race_Asian</th>
-      <th>race_Caucasian</th>
-      <th>race_Hispanic</th>
-      <th>race_Native American</th>
-      <th>race_Other</th>
-      <th>Prediction</th>
-      <th>Actual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2034</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>5746</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1860</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1586</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5364</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -16784,40 +15225,6 @@ False Negative: 0.16049382716049382
 <div class="output_text output_subarea output_execute_result">
 <pre>array([[2, 2],
        [3, 3]], dtype=int64)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[196]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-<span class="p">(</span><span class="n">tn</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">fn</span><span class="p">,</span> <span class="n">tp</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[196]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(2, 2, 3, 3)</pre>
 </div>
 
 </div>
@@ -16859,92 +15266,6 @@ False Negative: 0.3
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Dont-read---dont-make-sense">Dont read - dont make sense<a class="anchor-link" href="#Dont-read---dont-make-sense">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="White">White<a class="anchor-link" href="#White">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">caucasian</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;race&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Caucasian&#39;</span><span class="p">]</span>
-<span class="n">caucasian_reduced</span> <span class="o">=</span> <span class="n">caucasian</span><span class="p">[[</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">,</span> <span class="s1">&#39;age_cat&#39;</span><span class="p">,</span> <span class="s1">&#39;juve_fel_count&#39;</span><span class="p">,</span> <span class="s1">&#39;priors_count&#39;</span><span class="p">,</span> <span class="s1">&#39;violence&#39;</span><span class="p">,</span> <span class="s1">&#39;drugs&#39;</span><span class="p">,</span> <span class="s1">&#39;theft&#39;</span><span class="p">,</span> <span class="s1">&#39;arrest_case_no_charge&#39;</span><span class="p">,</span> <span class="s1">&#39;traffic&#39;</span><span class="p">,</span> <span class="s1">&#39;disorderly_conduct&#39;</span><span class="p">,</span> <span class="s1">&#39;sexual_misconduct&#39;</span><span class="p">,</span><span class="s1">&#39;two_year_recid&#39;</span><span class="p">,</span><span class="s1">&#39;juv_misd_count&#39;</span><span class="p">,</span> <span class="s1">&#39;prios_count&#39;</span><span class="p">]]</span>
-<span class="n">caucasian_DF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">caucasian_reduced</span><span class="p">)</span>
-<span class="n">X_test_caucasian</span> <span class="o">=</span> <span class="n">caucasian_DF</span><span class="p">[[</span><span class="s1">&#39;juve_fel_count&#39;</span><span class="p">,</span> <span class="s1">&#39;priors_count&#39;</span><span class="p">,</span> <span class="s1">&#39;violence&#39;</span><span class="p">,</span> <span class="s1">&#39;drugs&#39;</span><span class="p">,</span> <span class="s1">&#39;theft&#39;</span><span class="p">,</span> <span class="s1">&#39;arrest_case_no_charge&#39;</span><span class="p">,</span> <span class="s1">&#39;traffic&#39;</span><span class="p">,</span> <span class="s1">&#39;disorderly_conduct&#39;</span><span class="p">,</span> <span class="s1">&#39;sexual_misconduct&#39;</span><span class="p">,</span> <span class="s1">&#39;sex_Female&#39;</span><span class="p">,</span> <span class="s1">&#39;sex_Male&#39;</span><span class="p">,</span> <span class="s1">&#39;age_cat_25 - 45&#39;</span><span class="p">,</span> <span class="s1">&#39;age_cat_Greater than 45&#39;</span><span class="p">,</span> <span class="s1">&#39;age_cat_Less than 25&#39;</span><span class="p">,</span> <span class="s1">&#39;juv_misd_count&#39;</span><span class="p">,</span> <span class="s1">&#39;prios_count&#39;</span><span class="p">]]</span>
-<span class="n">y_test_caucasian</span> <span class="o">=</span> <span class="n">caucasian_DF</span><span class="p">[</span><span class="s1">&#39;two_year_recid&#39;</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="k">import</span> <span class="n">RandomForestClassifier</span>
-<span class="n">rf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">8000</span><span class="p">)</span>
-<span class="n">rf</span> <span class="o">=</span> <span class="n">rf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_race</span><span class="p">,</span> <span class="n">y_race</span><span class="p">)</span>
-<span class="n">rf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test_caucasian</span><span class="p">,</span> <span class="n">y_test_caucasian</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#pd.DataFrame({&quot;Person&quot;: X_test.values.reshape(-1, 1), &quot;Prediction&quot;: predictions,  &quot;Actual&quot;: y_test}).reset_index(drop=True)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 

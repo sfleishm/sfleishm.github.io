@@ -119,7 +119,7 @@
             <!-- src="img/portfolio/chess_resize.png"  -->
             <script> 
                 function getRandomImage() {
-                var images = ['img/portfolio/chess_resize.PNG', 'img/portfolio/chess_2_resize.PNG', 'img/portfolio/chess_3_resize.PNG'];
+                var images = ['img/portfolio/chess_resize.png', 'img/portfolio/chess_2_resize.png', 'img/portfolio/chess_3_resize.png'];
                 var image = images[Math.floor(Math.random()*images.length)];
                  
                 return image;
@@ -427,7 +427,20 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5"  alt="" id="randomImageBig">  
                 <!-- src="img/portfolio/chess_big.PNG" -->
-
+                <script> 
+                    function getRandomImageBig() {
+                    var images = ['img/portfolio/chess_big.PNG', 'img/portfolio/chess_2.PNG', 'img/portfolio/chess_3.PNG'];
+                    var image = images[Math.floor(Math.random()*images.length)];
+                     
+                    return image;
+                    }
+                     
+                    function displayRandomImageBig() {
+                    var htmlImage = document.getElementById("randomImageBig");
+                    htmlImage.src = getRandomImageBig();
+                    }
+                    displayRandomImageBig();     
+                </script>
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-6">My first ever coding project with a simple goal, program a chess module to play random moves
                   against itself. To add more randomness to this project, the picture used is randomly chosen from a picture library. 

@@ -22,20 +22,7 @@
   <link href="css/freelancer.min.css" rel="stylesheet">
 
   <script src="https://kit.fontawesome.com/cc83497d11.js" crossorigin="anonymous"></script>
-  <script> 
-      function getRandomImage() {
-      var images = ['img/portfolio/chess_resize.PNG', 'img/portfolio/chess_2_resize.PNG', 'img/portfolio/chess_3_resize.PNG'];
-      var image = images[Math.floor(Math.random()*images.length)];
-       
-      return image;
-      }
-       
-      function displayRandomImage() {
-      var htmlImage = document.getElementById("randomImage");
-      htmlImage.src = getRandomImage();
-      }
-      displayRandomImage();     
-  </script>
+
 </head>
 
 <body id="page-top">
@@ -130,7 +117,7 @@
             </div>
             <img class="img-fluid" alt="" id="randomImage">
             <!-- src="img/portfolio/chess_resize.png"  -->
-            <!-- <script> 
+            <script> 
                 function getRandomImage() {
                 var images = ['img/portfolio/chess_resize.PNG', 'img/portfolio/chess_2_resize.PNG', 'img/portfolio/chess_3_resize.PNG'];
                 var image = images[Math.floor(Math.random()*images.length)];
@@ -143,7 +130,7 @@
                 htmlImage.src = getRandomImage();
                 }
                 displayRandomImage();     
-            </script> -->
+            </script>
           </div>
         </div>
 
@@ -440,7 +427,7 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5"  alt="" id="randomImageBig">  
                 <!-- src="img/portfolio/chess_big.PNG" -->
- -->
+
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-6">My first ever coding project with a simple goal, program a chess module to play random moves
                   against itself. To add more randomness to this project, the picture used is randomly chosen from a picture library. 

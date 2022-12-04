@@ -1,13 +1,1 @@
-# My Portfolio: https://sfleishm.github.io/  
-
-A short preview of the projects listed on my portfolio: :dog:
-
-## Projects Listed on my Portfolio
-| Project  | Description | Technologies Used |
-| ------------- | ------------- | ------------- |
-| One Belt One Road  | The goal of this project is to see if there is a connection between media output and project growth. 5 Chinese News Sites as well as 5 Kenyan news sites are scrapped to gauge the discourse surrounding the Belt and Road Projects in Kenya.  | Python, HTML, Data Munging, Beautiful Soup, Pandas, Jupyter Notebook |
-| Random Chess Moves  | My first ever coding project with a simple goal, program a chess module to play random moves against itself. To add more randomness to this project, the picture used is randomly chosen from a picture library. <p>The next goal is to add some machine learning into the project that checks board states.</p> | Python, Chess, Jupyter Notebook  |
-| Malaria Around the World  | For this class project, we were interested in making a map that showcases malaria deaths and GDP around the globe. The majority of my work was focused on building a map with three different years worth of data. Each country is given a particular color range based on their GDP at the time, and there are circles within each country that represent total deaths due to malaria. <p> Clicking any country will then present the user with a brief overview of what country they clicked on, year, GDP, total deaths, and the breakdown of deaths. </p> | JavaScript, PostgreSQL, Pandas, Data Visualization, D3.js, Leaflet.js, Turf.js, Flask  |
-| Reddit Politics  | Our first student group project, we wanted to see if there is a political bias on the social news site, https://www.reddit.com/ My work on this project consisted of writing code to grab 5000 posts for each political side, left, neutral, and right. Once everything was together I then checked to see how many times a unique author posted on particular subreddits. The idea being that if more unique posters are present in a particular subreddit, that might correlate to the website leaning one way.  | Python, Pandas, Matplotlib, Jupyter Notebook  |
-| Recidivism Machine Learning  | For this project we decided to look at risk assessment software and see if we could potentially make a better, less biased, software. I was tasked with building machine learning models and comparing them between one another.  | Python, Machine Learning, Random Forest Classifier, Jupyter Notebook, Confusion Matrices |
-| Jisho Scrapper  | Another side project of mine, I was interested in scrapping the Japanese vocab site, https://jisho.org/.org. This project practices web scrapping as well as slicing and parsing through text to ultimately present all the necessary information. | Python, HTML, Beautfiul Soup, Pandas, Jupyter Notebook |
+# Site currently under reconstruction
